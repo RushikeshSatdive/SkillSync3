@@ -7,7 +7,7 @@ import { AppProvider, PrefsProvider } from './store/AppStore.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/SkillSync3">
       <PrefsProvider>
         <AppProvider>
           <App />
